@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result - Spam Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <div class="result-box {{ msg_type }}">
+            <p>{{ prediction }}</p>
+            {% if confidence %}
+                <p><b>Confidence:</b> {{ confidence | round(2) }}%</p>
+            {% endif %}
+        </div>
+        <a href="/" class="back-btn">🔙 Check Another</a>
+    </div>
+</body>
+</html>

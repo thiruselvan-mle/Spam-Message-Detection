@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Message Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📩 Spam Message Detector</h1>
+        <p>Enter a message below to check if it's Spam or Ham (Not Spam)</p>
+        <form method="post">
+            <textarea name="message" placeholder="Type your message here..." required></textarea>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>
