@@ -95,8 +95,8 @@ def load_model_vector(path):
 
 def transform_test(x_test, vectorizer):
     x_test=vectorizer.transform(x_test)
-    return x_test
-
+    return x_test 
+ 
 def make_predict(x_test, model):
     y_pred = model.predict(x_test)
     return y_pred
