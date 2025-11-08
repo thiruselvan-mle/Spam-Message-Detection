@@ -73,7 +73,7 @@ def compare_acuu(names,res):
     plt.show()
 
 def train_model(x_train,y_train):
-    model = MultinomialNB()
+    model = MultinomialNB(alpha =0.5)
     model.fit(x_train,y_train)
     return model
 

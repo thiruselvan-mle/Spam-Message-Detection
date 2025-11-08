@@ -26,7 +26,7 @@ spam-classifier/
 │ ├── 03-eda.ipynb
 │ ├── 04-model-training.ipynb
 │ └── 05-model-evaluation.ipynb
-│
+│ 
 ├── src/ # Source code for data processing & training
 ├── models/ # Trained model and vectorizer files (.pkl)
 ├── app.py # Streamlit or Flask app
@@ -83,12 +83,12 @@ python -m app/flask_app.py # Then visit localhost:5000
 
 ## Model Performance
 ```bash
-| Metric    | Score  |
-| --------- | -----  |
-| Accuracy  | 97.29% |
-| Precision | 99.05% |
-| Recall    | 79.39% |
-| F1-Score  | 88.14% |
+| Metric    | Score |
+| --------- | ----- |
+| Accuracy  |  97%  |
+| Precision |  98%  |
+| Recall    |  83%  |
+| F1-Score  |  90%  |
 ```
 ---
 
