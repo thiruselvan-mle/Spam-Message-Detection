@@ -83,11 +83,11 @@ python -m app/flask_app.py # Then visit localhost:5000
 
 ## Model Performance
 ```bash
-| Metric    | Score |
-| --------- | ----- |
-| Accuracy  | 97.29%   |
-| Precision | 99.05%   |
-| Recall    | 79.39%   |
+| Metric    | Score  |
+| --------- | -----  |
+| Accuracy  | 97.29% |
+| Precision | 99.05% |
+| Recall    | 79.39% |
 | F1-Score  | 88.14% |
 ```
 ---
